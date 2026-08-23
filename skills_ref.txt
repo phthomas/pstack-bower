@@ -1,0 +1,3 @@
+https://github.com/likaku/Mck-ppt-design-skill
+https://github.com/kgraph57/mckinsey-style-visualization-skill
+https://github.com/alextimmer/claude-skills/tree/main/plugins/mbb-deck-plugin

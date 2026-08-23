@@ -1,0 +1,14 @@
+# Copyrighted source books — never push. Extraction is reproducible:
+# see centralized_md_references/00-source-inventory.md §C
+Refs/
+
+# Python
+__pycache__/
+*.pyc
+
+# Deck-project artifacts (this repo is the toolkit, not a deck workspace)
+slides/
+slides-template/
+fragments/
+*.pptx
+*.pdf
