@@ -61,6 +61,17 @@ fallback; the slash is the precise handle.
 
 ## Install
 
+**Per deck project (the house default).** One folder per deck; the toolkit installs inside it.
+In a fresh folder, tell your agent:
+
+> Install pstack-bower into this folder, project-level, per
+> https://github.com/phthomas/pstack-bower/blob/main/INSTALL.md
+
+[`INSTALL.md`](INSTALL.md) is the agent runbook — fetch, install to `./.claude/skills/`,
+scaffold `refs/` + `CLAUDE.md`, verify dependencies, report readiness, stop.
+
+**Global (alternative)** — if you want the skills in every project:
+
 ```bash
 cp -r skills/* ~/.claude/skills/        # install all eight - they cross-reference
 ```
